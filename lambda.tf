@@ -1,5 +1,5 @@
 data "http" "src" {
-  url = "https://raw.githubusercontent.com/cloudreach/aws-lambda-es-cleanup/master/es-cleanup.py"
+  url = "https://raw.githubusercontent.com/halter-corp/aws-lambda-es-cleanup/v0.13/es-cleanup.py"
 }
 
 resource "local_file" "src_local" {
